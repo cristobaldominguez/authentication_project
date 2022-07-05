@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get 'home/index'
+  get 'sessions/new'
+  get 'sessions/create'
+  get 'sessions/destroy'
+  get 'cookies/set'
+  get 'cookies/show'
+  get 'cookies/delete'
+
 end
